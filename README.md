@@ -17,6 +17,6 @@ To get started with your new GDExtension, do the following:
 * initialize the godot-cpp git submodule via `git submodule update --init`
 * Go to the CMakeLists.txt and change the LIBNAME from EXTENSION-NAME to the intended name. Ensure there are no spaces.
 * change the paths of the to be loaded library name inside the [project/bin/example.gdextension](./project/bin/example.gdextension) file, by replacing `EXTENSION-NAME` with the name you chose for `libname`.
-* change the `entry_symbol` string inside [demo/bin/example.gdextension](./project/bin/example.gdextension) file.
+* change the `entry_symbol` string inside [project/bin/example.gdextension](./project/bin/example.gdextension) file.
     * rename the `example_library_init` function in [src/register_types.cpp](./src/register_types.cpp) to the same name you chose for `entry_symbol`.
 * change the name of the `project/bin/example.gdextension` file
