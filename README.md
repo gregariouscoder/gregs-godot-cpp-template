@@ -19,5 +19,4 @@ To get started with your new GDExtension, do the following:
 * Change the paths of the to be loaded library name inside the [project/bin/example.gdextension](./project/bin/example.gdextension) file, by replacing `EXTENSION-NAME` with the name you chose for `libname`.
 * Change the `entry_symbol` string inside [project/bin/example.gdextension](./project/bin/example.gdextension) file.
     * Rename the `example_library_init` function in [src/register_types.cpp](./src/register_types.cpp) to the same name you chose for `entry_symbol`.
-    * Rename the paths of the binary files, replacing all occurrences of EXTENSION-NAME for each platform.
-* Change the name of the `project/bin/example.gdextension` file
+* Change the name of the `project/bin/example.gdextension` file. This file does not need a specific name.
